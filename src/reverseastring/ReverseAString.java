@@ -16,6 +16,17 @@ public class ReverseAString {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        String forwardString = "Hello I have to reverse this!";
+        
+        StringBuilder sb = new StringBuilder();
+        sb.append(forwardString);
+        
+        String reverseString = sb.reverse().toString();
+        
+        System.out.println("Forward String is: " +forwardString);
+        System.out.println("Reverse String is: " +reverseString);
+        
     }
     
 }
